@@ -1,0 +1,94 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Climate Trends Visualization</title>
+<style>
+body{margin:0;background:#f6f1df;color:#14242f;font-family:Arial,sans-serif}
+header{background:#102333;color:#f6f1df;padding:32px 44px} h1{margin:0} p{line-height:1.5}
+main{padding:30px 44px} .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;margin-bottom:24px}
+.kpi{background:white;border:1px solid #d7cba9;border-radius:12px;padding:16px;box-shadow:0 2px 8px rgba(0,0,0,.04)}
+.kpi span{display:block;color:#667;font-size:13px} .kpi strong{display:block;margin-top:7px;font-size:24px}
+section{background:white;border:1px solid #d7cba9;border-radius:12px;padding:18px;margin-bottom:20px;overflow-x:auto}
+h2{font-size:19px;margin-top:0}
+</style></head><body><header><h1>Climate Trends Visualization</h1><p>Temperature, humidity, rainfall, and seasonal climate patterns.</p></header><main><div class="grid"><div class="kpi"><span>Records</span><strong>5,480</strong></div><div class="kpi"><span>Warmest</span><strong>Faro</strong></div><div class="kpi"><span>Rainiest</span><strong>Porto</strong></div><div class="kpi"><span>Cities</span><strong>5</strong></div></div><section><h2>Average Temperature by City</h2><svg width="860" height="330" viewBox="0 0 860 330">
+<line x1="70" y1="260" x2="840" y2="260" stroke="#777"/>
+<line x1="70" y1="25" x2="70" y2="260" stroke="#777"/>
+<rect x="96.2" y="25.0" width="100.1" height="235.0" rx="4" fill="#2a7f79"/>
+<text x="146.2" y="19.0" font-size="10" text-anchor="middle">21</text>
+<text x="146.2" y="282" font-size="10" text-anchor="middle">Faro</text>
+<rect x="250.2" y="46.7" width="100.1" height="213.3" rx="4" fill="#2a7f79"/>
+<text x="300.2" y="40.7" font-size="10" text-anchor="middle">19</text>
+<text x="300.2" y="282" font-size="10" text-anchor="middle">Lisbon</text>
+<rect x="404.2" y="68.9" width="100.1" height="191.1" rx="4" fill="#2a7f79"/>
+<text x="454.2" y="62.9" font-size="10" text-anchor="middle">17</text>
+<text x="454.2" y="282" font-size="10" text-anchor="middle">Porto</text>
+<rect x="558.2" y="90.8" width="100.1" height="169.2" rx="4" fill="#2a7f79"/>
+<text x="608.2" y="84.8" font-size="10" text-anchor="middle">15</text>
+<text x="608.2" y="282" font-size="10" text-anchor="middle">Vila Real</text>
+<rect x="712.2" y="113.5" width="100.1" height="146.5" rx="4" fill="#2a7f79"/>
+<text x="762.2" y="107.5" font-size="10" text-anchor="middle">13</text>
+<text x="762.2" y="282" font-size="10" text-anchor="middle">Guarda</text>
+</svg></section><section><h2>Total Rainfall by City</h2><svg width="860" height="330" viewBox="0 0 860 330">
+<line x1="70" y1="260" x2="840" y2="260" stroke="#777"/>
+<line x1="70" y1="25" x2="70" y2="260" stroke="#777"/>
+<rect x="96.2" y="25.0" width="100.1" height="235.0" rx="4" fill="#2a7f79"/>
+<text x="146.2" y="19.0" font-size="10" text-anchor="middle">3,608</text>
+<text x="146.2" y="282" font-size="10" text-anchor="middle">Porto</text>
+<rect x="250.2" y="69.1" width="100.1" height="190.9" rx="4" fill="#2a7f79"/>
+<text x="300.2" y="63.1" font-size="10" text-anchor="middle">2,931</text>
+<text x="300.2" y="282" font-size="10" text-anchor="middle">Vila Real</text>
+<rect x="404.2" y="73.4" width="100.1" height="186.6" rx="4" fill="#2a7f79"/>
+<text x="454.2" y="67.4" font-size="10" text-anchor="middle">2,864</text>
+<text x="454.2" y="282" font-size="10" text-anchor="middle">Guarda</text>
+<rect x="558.2" y="114.4" width="100.1" height="145.6" rx="4" fill="#2a7f79"/>
+<text x="608.2" y="108.4" font-size="10" text-anchor="middle">2,235</text>
+<text x="608.2" y="282" font-size="10" text-anchor="middle">Lisbon</text>
+<rect x="712.2" y="190.9" width="100.1" height="69.1" rx="4" fill="#2a7f79"/>
+<text x="762.2" y="184.9" font-size="10" text-anchor="middle">1,060</text>
+<text x="762.2" y="282" font-size="10" text-anchor="middle">Faro</text>
+</svg></section><section><h2>Guarda Temperature Trend</h2><svg width="860" height="330" viewBox="0 0 860 330">
+<line x1="70" y1="260" x2="840" y2="260" stroke="#777"/>
+<line x1="70" y1="25" x2="70" y2="260" stroke="#777"/>
+<polyline points="70.0,115.7 92.0,101.4 114.0,110.2 136.0,61.5 158.0,67.4 180.0,54.6 202.0,255.2 224.0,258.7 246.0,245.8 268.0,225.2 290.0,223.4 312.0,227.5 334.0,256.6 356.0,260.0 378.0,254.0 400.0,30.9 422.0,31.8 444.0,33.5 466.0,28.2 488.0,31.2 510.0,25.0 532.0,175.7 554.0,169.4 576.0,182.2 598.0,56.3 620.0,57.0 642.0,70.1 664.0,225.2 686.0,217.7 708.0,226.5 730.0,173.9 752.0,181.2 774.0,170.4 796.0,109.9 818.0,120.2 840.0,116.8" fill="none" stroke="#2a7f79" stroke-width="3"/>
+<circle cx="70.0" cy="115.7" r="3.5" fill="#102333"/>
+<text x="70.0" y="282" font-size="10" text-anchor="middle">Apr 23</text>
+<circle cx="92.0" cy="101.4" r="3.5" fill="#102333"/>
+<circle cx="114.0" cy="110.2" r="3.5" fill="#102333"/>
+<circle cx="136.0" cy="61.5" r="3.5" fill="#102333"/>
+<circle cx="158.0" cy="67.4" r="3.5" fill="#102333"/>
+<circle cx="180.0" cy="54.6" r="3.5" fill="#102333"/>
+<text x="180.0" y="282" font-size="10" text-anchor="middle">Aug 25</text>
+<circle cx="202.0" cy="255.2" r="3.5" fill="#102333"/>
+<circle cx="224.0" cy="258.7" r="3.5" fill="#102333"/>
+<circle cx="246.0" cy="245.8" r="3.5" fill="#102333"/>
+<circle cx="268.0" cy="225.2" r="3.5" fill="#102333"/>
+<circle cx="290.0" cy="223.4" r="3.5" fill="#102333"/>
+<text x="290.0" y="282" font-size="10" text-anchor="middle">Feb 24</text>
+<circle cx="312.0" cy="227.5" r="3.5" fill="#102333"/>
+<circle cx="334.0" cy="256.6" r="3.5" fill="#102333"/>
+<circle cx="356.0" cy="260.0" r="3.5" fill="#102333"/>
+<circle cx="378.0" cy="254.0" r="3.5" fill="#102333"/>
+<circle cx="400.0" cy="30.9" r="3.5" fill="#102333"/>
+<text x="400.0" y="282" font-size="10" text-anchor="middle">Jul 23</text>
+<circle cx="422.0" cy="31.8" r="3.5" fill="#102333"/>
+<circle cx="444.0" cy="33.5" r="3.5" fill="#102333"/>
+<circle cx="466.0" cy="28.2" r="3.5" fill="#102333"/>
+<circle cx="488.0" cy="31.2" r="3.5" fill="#102333"/>
+<circle cx="510.0" cy="25.0" r="3.5" fill="#102333"/>
+<text x="510.0" y="282" font-size="10" text-anchor="middle">Jun 25</text>
+<circle cx="532.0" cy="175.7" r="3.5" fill="#102333"/>
+<circle cx="554.0" cy="169.4" r="3.5" fill="#102333"/>
+<circle cx="576.0" cy="182.2" r="3.5" fill="#102333"/>
+<circle cx="598.0" cy="56.3" r="3.5" fill="#102333"/>
+<circle cx="620.0" cy="57.0" r="3.5" fill="#102333"/>
+<text x="620.0" y="282" font-size="10" text-anchor="middle">May 24</text>
+<circle cx="642.0" cy="70.1" r="3.5" fill="#102333"/>
+<circle cx="664.0" cy="225.2" r="3.5" fill="#102333"/>
+<circle cx="686.0" cy="217.7" r="3.5" fill="#102333"/>
+<circle cx="708.0" cy="226.5" r="3.5" fill="#102333"/>
+<circle cx="730.0" cy="173.9" r="3.5" fill="#102333"/>
+<text x="730.0" y="282" font-size="10" text-anchor="middle">Oct 23</text>
+<circle cx="752.0" cy="181.2" r="3.5" fill="#102333"/>
+<circle cx="774.0" cy="170.4" r="3.5" fill="#102333"/>
+<circle cx="796.0" cy="109.9" r="3.5" fill="#102333"/>
+<circle cx="818.0" cy="120.2" r="3.5" fill="#102333"/>
+<circle cx="840.0" cy="116.8" r="3.5" fill="#102333"/>
+<text x="840.0" y="282" font-size="10" text-anchor="middle">Sep 25</text>
+</svg></section></main></body></html>
